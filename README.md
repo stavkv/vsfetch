@@ -4,7 +4,7 @@
 <p>⚡ vsfetch is a minimal system info program written in shell.
 </p>
 <br>
-<img src="./screenshot/photo_6224304023574525107_x.jpg">
+<img src="./screenshot/git.png">
 </div>
 - 🔭Clone this repository & run vsfetch.
 - 😊enjoy your minimal system info program
