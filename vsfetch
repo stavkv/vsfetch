@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+host="$(hostname)"
 # Get package installed
 get_package_info() {
 	pkg_count=$(get_pkg_count)
@@ -78,17 +78,31 @@ get_pkg_count() {
 	echo 0
 }
 
+get_distro_name() {
+	if [ "$kernel" = "Android" ]; then
+		echo 'Android'
+	elif [ "$kernel" = "Darwin" ]; then
+		echo "macOS $(uname) $(sw_vers -productVersion)"
+	else
+		awk -F '"' '/PRETTY_NAME/ { print $2 }' /etc/os-release
+	fi
+}
+
+
+
+
 
 echo -e "\n"
-echo -e "           \e[1;31m Installed Kernel\e[m                     $(uname -r)"
-echo -e "\n           \e[1;32m Host Name\e[m                            $(uname -n)"
-echo -e "\n           \e[1;33m OS Name\e[m                              $(lsb_release -d | cut -f 2)"
-echo -e "\n           \e[1;35m Window Manager\e[m                       $(wmctrl -m | grep -i name | cut -f 2 -d ":")"
-echo -e "\n           \e[1;34m Number of Packages\e[m                   $(get_package_info)"
-echo -e "\n           \e[1;35m init System\e[m                          $(get_init)"
-echo -e "\n           \e[1;36m sh system\e[m                            ${SHELL##*/}"
-echo -e "\n           \e[1;37m Ram Used\e[m                             $(get_mem)"
-echo -e "\n           \e[1;30m CPU\e[m                                $(cat /proc/cpuinfo | grep model\ name | cut -f 2 -d ":" | sort -u)"
-echo -e "\n           \e[1;32m System Uptime\e[m                       $(get_uptime)"
+echo -e "    \e[1;34m ${nc}${USER}${ic}@${nc}${host}${reset}\e[m "						
+echo -e "    \e[1;31m Kernel:\e[m   $(uname -r)"
+echo -e "    \e[1;32m Host: \e[m    $(uname -n)"
+echo -e "    \e[1;33m OS: \e[m      $(get_distro_name) $(uname -m)"
+echo -e "    \e[1;35m WM/DE:\e[m   $(wmctrl -m | grep -i name | cut -f 2 -d ":")"
+echo -e "    \e[1;34m Packages:\e[m $(get_package_info)"
+echo -e "    \e[1;35m init:\e[m     $(get_init)"
+echo -e "    \e[1;36m Shell:\e[m    ${SHELL##*/}"
+echo -e "    \e[1;32m Ram: \e[m     $(get_mem)"
+echo -e "    \e[1;31m CPU:\e[m     $(cat /proc/cpuinfo | grep model\ name | cut -f 2 -d ":" | sort -u)"
+
 
 echo -e "\n\n"
