@@ -1,6 +1,6 @@
 <div align="center">
   
-## vsfetch
+# vsfetch
 </div>
 <p>⚡ vsfetch is a minimal system info program written in shell.
 </p>
@@ -9,7 +9,7 @@
   
 <img src="./screenshot/git m.png">
 <br>
-<img src="./screenshot/Screenshot 2023-08-05 125415png">
+<img src="./screenshot/Screenshot 2023-08-05 125415.png">
 <br>
 </div>
 <br>
