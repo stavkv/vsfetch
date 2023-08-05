@@ -13,12 +13,14 @@
 <br>
 </div>
 <br>
-- 🔭Clone this repository & run vsfetch.
+
+
+- 🔭Clone this repository & run vsfetch
 - 😊enjoy your minimal system info program
   
   
   
-```yaml
+```
 # clones the vsfetch repo
 $ git clone https://github.com/vikmenace/vsfetch
 # cd in vsfetch
