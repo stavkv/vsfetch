@@ -20,7 +20,8 @@
   
   
   
-```
+```yaml
+
 # clones the vsfetch repo
 $ git clone https://github.com/vikmenace/vsfetch
 # cd in vsfetch
