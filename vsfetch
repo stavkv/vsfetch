@@ -1,6 +1,6 @@
 #!/bin/bash
 
-host="$(hostname)"
+host="$(cat /etc/hostname)"
 # Get package installed
 get_package_info() {
 	pkg_count=$(get_pkg_count)
@@ -97,7 +97,7 @@ echo -e "    \e[1;34m ${nc}${USER}${ic}@${nc}${host}${reset}\e[m "
 echo -e "    \e[1;31m Kernel:\e[m   $(uname -r)"
 echo -e "    \e[1;32m Host: \e[m    $(uname -n)"
 echo -e "    \e[1;33m OS: \e[m      $(get_distro_name) $(uname -m)"
-echo -e "    \e[1;35m WM/DE:\e[m   $(wmctrl -m | grep -i name | cut -f 2 -d ":")"
+echo -e "    \e[1;35m WM/DE:\e[m   $(echo $XDG_CURRENT_DESKTOP)"
 echo -e "    \e[1;34m Packages:\e[m $(get_package_info)"
 echo -e "    \e[1;35m init:\e[m     $(get_init)"
 echo -e "    \e[1;36m Shell:\e[m    ${SHELL##*/}"
