@@ -23,7 +23,7 @@
 ```yaml
 
 # clones the vsfetch repo
-$ git clone https://github.com/vikmenace/vsfetch
+$ git clone https://github.com/vikalsingh777/vsfetch
 # cd in vsfetch
 $ cd vsfetch
 # give permession to vsfetch to run 
