@@ -1,6 +1,6 @@
 <div align="center">
   
-# vsfetch
+<h1> vsfetch</h1>
 </div>
 <p>⚡ vsfetch is a minimal system info program written in shell.
 </p>
@@ -12,7 +12,7 @@
 <div align="center">
 
 
-## Linux 
+<h2>Linux</h2>
 
 
 <img src="./screenshot/IMG_20231020_112744_785.png">
@@ -22,7 +22,7 @@
 <img src="./screenshot/IMG_20231020_112747_140.png">
 <br>
 
-## WSL2 (Windows Subsystem for Linux)
+<h2>WSL2 (Windows Subsystem for Linux)</h2>
 
 <img src="./screenshot/Screenshot 2023-10-19 195917.png">
 <br>
