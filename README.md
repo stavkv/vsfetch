@@ -11,7 +11,9 @@
 <br>
 <div align="center">
 
+
 ## Linux 
+
 
 <img src="./screenshot/IMG_20231020_112744_785.png">
 <br>
@@ -21,6 +23,7 @@
 <br>
 
 ## WSL2 (Windows Subsystem for Linux)
+
 <img src="./screenshot/Screenshot 2023-10-19 195917.png">
 <br>
 </div>
@@ -35,7 +38,7 @@ Custom system information fetching tool written in bash.
 
 ## Run with curl
 
-If you don't wanna clone this repo or install rxfetch, you can use curl.
+If you don't wanna clone this repo or install vsfetch, you can use curl.
 
 ```yaml
 $ curl https://raw.githubusercontent.com/ow1c/vsfetch/main/vsfetch | bash
