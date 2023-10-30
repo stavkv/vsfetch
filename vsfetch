@@ -94,8 +94,7 @@ getUser () {
     echo $USER
 }
 
-
-echo -e "\n"
+echo -e " "
 echo -e "    \e[1;34m User =>\e[m $(getUser)"
 echo -e "    \e[1;31m Kernel =>\e[m $(uname -r)"
 echo -e "    \e[1;32m Host =>\e[m $(uname -n)"
@@ -107,4 +106,4 @@ echo -e "    \e[1;36m Shell =>\e[m ${SHELL##*/}"
 echo -e "    \e[1;32m Ram =>\e[m $(get_mem)"
 echo -e "    \e[1;31m CPU =>\e[m $(cat /proc/cpuinfo | grep model\ name | cut -f 2 -d ":" | sort -u)"
 echo -e "    \e[1;34m Directory =>\e[m $(tree ~/ -L 1|tail -1)"
-echo -e "\n"
+echo -e " "
