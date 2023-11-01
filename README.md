@@ -4,9 +4,9 @@
 </div>
 <p>⚡ vsfetch is a minimal system info program written in shell.
 </p>
-<img src="https://img.shields.io/github/stars/theevilguy/vsfetch?color=e57474&labelColor=1e2528&style=for-the-badge"> <img src="https://img.shields.io/github/issues/theevilguy/vsfetch?color=67b0e8&labelColor=1e2528&style=for-the-badge">
+<img src="https://img.shields.io/github/stars/mrvks/vsfetch?color=e57474&labelColor=1e2528&style=for-the-badge"> <img src="https://img.shields.io/github/issues/mrvks/vsfetch?color=67b0e8&labelColor=1e2528&style=for-the-badge">
 <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=8ccf7e&labelColor=1e2528&style=for-the-badge">
-<img src="https://img.shields.io/github/forks/theevilguy/vsfetch?color=e5c76b&labelColor=1e2528&style=for-the-badge">
+<img src="https://img.shields.io/github/forks/mrvks/vsfetch?color=e5c76b&labelColor=1e2528&style=for-the-badge">
 <br>
 <br>
 
@@ -47,7 +47,7 @@ Custom system information fetching tool written in bash.
 If you don't wanna clone this repo or install vsfetch, you can use curl.
 
 ```yaml
-$ curl https://raw.githubusercontent.com/theevilguy/vsfetch/main/vsfetch | bash
+$ curl https://raw.githubusercontent.com/mrvks/vsfetch/main/vsfetch | bash
 ```
 
 ## Installation
@@ -60,7 +60,7 @@ $ curl https://raw.githubusercontent.com/theevilguy/vsfetch/main/vsfetch | bash
 ```yaml
 
 # clones the vsfetch repo
-$ git clone https://github.com/theevilguy/vsfetch
+$ git clone https://github.com/mrvks/vsfetch
 # cd in vsfetch
 $ cd vsfetch
 # give permession to vsfetch to run 
@@ -77,7 +77,7 @@ $ ./vsfetch
 > You can also run directly
 
 ```yaml
-$ wget https://raw.githubusercontent.com/theevilguy/vsfetch/main/vsfetch && chmod +x vsfetch
+$ wget https://raw.githubusercontent.com/mrvks/vsfetch/main/vsfetch && chmod +x vsfetch
 ```
 
 - You can also add vsfetch to PATH by placing it in `/usr/local/bin`
