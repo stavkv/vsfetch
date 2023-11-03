@@ -47,7 +47,7 @@ Custom system information fetching tool written in bash.
 If you don't wanna clone this repo or install vsfetch, you can use curl.
 
 ```yaml
-$ curl https://raw.githubusercontent.com/soiam/vsfetch/main/vsfetch | bash
+$ curl https://raw.githubusercontent.com/heyvikki/vsfetch/main/vsfetch | bash
 ```
 
 ## Installation
@@ -60,7 +60,7 @@ $ curl https://raw.githubusercontent.com/soiam/vsfetch/main/vsfetch | bash
 ```yaml
 
 # clones the vsfetch repo
-$ git clone https://github.com/soiamvs/vsfetch
+$ git clone https://github.com/heyvikki/vsfetch
 # cd in vsfetch
 $ cd vsfetch
 # give permession to vsfetch to run 
@@ -77,7 +77,7 @@ $ ./vsfetch
 > You can also run directly
 
 ```yaml
-$ wget https://raw.githubusercontent.com/soiamvs/vsfetch/main/vsfetch && chmod +x vsfetch
+$ wget https://raw.githubusercontent.com/heyvikki/vsfetch/main/vsfetch && chmod +x vsfetch
 ```
 
 - You can also add vsfetch to PATH by placing it in `/usr/local/bin`
