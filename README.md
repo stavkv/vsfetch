@@ -4,10 +4,10 @@
 </div>
 <p>⚡ vsfetch is a minimal system info program written in shell.
 </p>
-<img src="https://img.shields.io/github/stars/vi4al/vsfetch?color=e57474&labelColor=1e2528&style=for-the-badge">
-<img src="https://img.shields.io/github/issues/vi4al/vsfetch?color=67b0e8&labelColor=1e2528&style=for-the-badge">
+<img src="https://img.shields.io/github/stars/stavkv/vsfetch?color=e57474&labelColor=1e2528&style=for-the-badge">
+<img src="https://img.shields.io/github/issues/stavkv/vsfetch?color=67b0e8&labelColor=1e2528&style=for-the-badge">
 <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=8ccf7e&labelColor=1e2528&style=for-the-badge">
-<img src="https://img.shields.io/github/forks/vi4al/vsfetch?color=e5c76b&labelColor=1e2528&style=for-the-badge">
+<img src="https://img.shields.io/github/forks/stavkv/vsfetch?color=e5c76b&labelColor=1e2528&style=for-the-badge">
 <br>
 <br>
 
